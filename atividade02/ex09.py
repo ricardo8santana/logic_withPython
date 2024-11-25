@@ -11,7 +11,10 @@ elif  operacao == '-':
 elif  operacao == '*':
     resultado = valor1 * valor2
 elif  operacao == '/':
-    resultado = valor1 / valor2    
+    if valor2 != 0: 
+       resultado = valor1 / valor2    
+    else:
+        resultado = "Operação inválida"
 else:
-    resultado = "Operação invalida!"
+    resultado = "Operação inválida!"
 print(resultado)
