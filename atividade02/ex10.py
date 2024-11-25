@@ -9,4 +9,4 @@ elif idade == 16 or idade == 17:
     else:
         print("Entrada Negada")
 else:
-   print("Entrada Negada")
+     print("Entrada Negada")
