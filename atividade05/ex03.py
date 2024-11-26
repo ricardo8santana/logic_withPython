@@ -1,5 +1,5 @@
 n  = 50 
-p = 2 
+p = 6 
 
 while p <= n:
      print(p)

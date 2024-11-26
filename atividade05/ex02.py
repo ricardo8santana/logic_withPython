@@ -1,6 +1,5 @@
-n = 10 
-m = 2
+n = 10
 
-while m <= n:
-     print(m)
+while n >= 0:
+     print(n)
      n = n - 2

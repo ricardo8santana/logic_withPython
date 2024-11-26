@@ -1,5 +1,7 @@
-n = 10 
+valor = int (input("Digite um valor"))
 
-while n <= n:
-     print(c)
-     c = c + 1
+n = 1
+
+while n <= valor:
+     print(n)
+     n = n + 1
