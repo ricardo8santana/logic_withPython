@@ -18,8 +18,7 @@ print("Tamanho da lista quantidades:", len(quantidades))
 
 #4Modificando a quantidade do terceiro produto para um novo valor imprima a lista
 print(f'\n{'#*'*80}\n')
-print("Quantidades sem  moficação:", quantidades)
-quantidades.insert(3, 30)
+quantidades[2]=30
 print("Quantidades após  moficação:", quantidades)
 
 #5Adicione um novo produto ex: Sal
@@ -27,6 +26,7 @@ print(f'\n{'#*'*80}\n')
 print("Produto sem modificação:", produtros)
  #adicionando um novo nome na lista nomes na última posição
 produtros.append("Sal")
+produtros.append("40")
 print("Produtos após modificação:", produtros)
 
 #6Insira um novo produto ex: Café, com qtd 10 na segunda posição
@@ -34,11 +34,12 @@ print("Produtos após modificação:", produtros)
 
 print(f'\n{'#*'*80}\n')
 
-print("Produtos sem  moficação:", produtros)
+print("Produtos sem  moficação:", produtros, quantidades)
 #insere um novo item nalista baseada na posição
 #insere (posição, valor)
-produtros.insert("Café", 10)
-print("Produtos após  moficação:", produtros)
+produtros.insert("Café", 1)
+quantidades.insert(1, 10)
+print("Produtos após  moficação:", produtros, quantidades)
 
 print(f'\n{'#*'*80}\n')
 
@@ -72,8 +73,6 @@ print("Quantidades após a reversão:", quantidades)
 
 #11 Localize a posição de um produto especifico na lista produtos e imprima o indíce em que o produto se encontra
 print(f'\n{'#*'*80}\n')
-
-print("Lista nomes:", produtros)
 #index() retorna a posição em que o valor está localizado
 cafe = produtros.index("Café")
-print("Café esta na posição", cafe) 
+print(cafe) 
