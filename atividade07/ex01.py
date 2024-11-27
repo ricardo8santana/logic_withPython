@@ -16,9 +16,6 @@ print(f'\n{'#*'*80}\n')
 print("Tamanho da lista produtros:", len(produtros)) # len(nomes)
 print("Tamanho da lista quantidades:", len(quantidades))
 
-
-
-
 #4Modificando a quantidade do terceiro produto para um novo valor imprima a lista
 print(f'\n{'#*'*80}\n')
 print("Quantidades sem  moficação:", quantidades)
