@@ -6,4 +6,27 @@ for numero in lista:
     print(numero ** 2)
 
 for fruta in lista_frutas:
-    print(fruta)
+    if fruta == "Maçã":
+     verifica = True
+     
+     print(fruta)
+
+else:
+    print("Não exite essa fruta na lista")
+
+# for numero in range(1, 101):
+#    print(numero)
+
+nome = "Maria"
+verf = False
+c = 0
+
+for letra in nome:
+   if letra == 'a':
+      verf = True
+      c = c + 1
+
+if verf == True:
+   print("Existe a letra A no nome e existe", c, "letras")
+else:
+   print("Letra A não existe")
