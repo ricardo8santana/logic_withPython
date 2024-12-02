@@ -23,9 +23,15 @@ precos = []
 
 for i in range(n):
     nome = input("Nome do produto:")
-    preco = float(input("Valor do produto"))
+    preco = float(input("Valor do produto:"))
     produtos.append(nome)
     precos.append(preco)
 
 total = totalCompras(precos)
 print("O total da compra foi:", total)
+
+print("Escolha a forma de pagamento:")
+print("1 - Pix")
+print("2 - Débito")
+print("3 - Crédito")
+pagamento = int(input("Escolha a forma de pagamento:"))
