@@ -7,13 +7,13 @@ for numero in lista:
 
 # 2Crie um programa que contenha uma lista de números inteiros. Utilize um laço for para percorrer a lista e encontrar o maior número. 
 # O programa deve imprimir o maior número da lista. Exemplo de lista: [3, 5, 7, 2, 8, 1] 
-lista = [3, 5, 7, 2, 8, 1]
-maior_numero = numero[0]
+lista_numeros = [3, 5, 7, 2, 8, 1]
+maior = lista_numeros[0]
 
-for numero in numero:
-    if numero > maior_numero:
-        maior_numero = numero
-print("O maior número da lista é:", maior_numero)
+for numero in lista_numeros:
+    if numero > maior:
+        maior = numero
+print("O maior número da lista é:", maior)
 
 
 # 4 Crie um programa que contenha uma lista com os números de 1 a 5.
@@ -21,13 +21,10 @@ print("O maior número da lista é:", maior_numero)
 #  O programa deve imprimir a nova lista. 
 #  Exemplo de lista original: [1, 2, 3, 4, 5] Resultado esperado: [1, 4, 9, 16, 25]
 
-lista =[1, 2, 3, 4, 5]
+lista =list(range(1, 6))
 
-lista_numeros = []
-
-for numero in lista_numeros:
-    lista_numeros.append(numero ** 2)
-
+for numero in lista:
+    lista_numeros.append(numero**2)
 print(lista_numeros)
 
 
