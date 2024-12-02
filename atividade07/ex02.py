@@ -35,9 +35,14 @@ nome = input("Digite seu nome: ")
 
 letra = input("Digite a letra que você quer verificar: ")
 
-quantidade = nome.lower().count(letra.lower())
+contador = 0
 
-if quantidade > 0:
-    print(f"A letra '{letra}' aparece {quantidade} vez(es) no seu nome.")
+for letra in nome:
+    if letra == letra:
+        #print('Letra encontrada')
+        contador = contador + 1
+
+if contador > 0:
+    print(f"A letra '{letra}' aparece {contador} vez(es) no seu nome.")
 else:
     print(f"A letra '{letra}' não aparece no seu nome.")
