@@ -37,17 +37,8 @@ letra = input("Digite a letra que você quer verificar: ")
 
 contador = 0
 
-palavra = 'PyThON'
-palavra_maiuscula = palavra.upper()
-palavra_minuscula = palavra.lower()
-
-print(palavra)
-print(palavra_minuscula)
-print(palavra_maiuscula)
-
-
 for letra in nome:
-    if letra == letra:
+    if letra.upper() == letra.upper():
         #print('Letra encontrada')
         contador = contador + 1
 
@@ -55,3 +46,11 @@ if contador > 0:
     print(f"A letra '{letra}' aparece {contador} vez(es) no seu nome.")
 else:
     print(f"A letra '{letra}' não aparece no seu nome.")
+
+    # palavra = 'PyThON'
+# palavra_maiuscula = palavra.upper()
+# palavra_minuscula = palavra.lower()
+
+# print(palavra)
+# print(palavra_minuscula)
+# print(palavra_maiuscula)
